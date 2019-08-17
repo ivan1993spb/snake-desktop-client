@@ -1,5 +1,5 @@
 import logging
-from playground import Playground
+from lib.playground import Playground
 
 
 logger = logging.getLogger(__name__)

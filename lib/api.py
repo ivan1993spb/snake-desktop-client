@@ -1,4 +1,5 @@
 from concurrent.futures import Future
+
 from requests.utils import CaseInsensitiveDict
 import requests.exceptions
 import requests
@@ -121,7 +122,7 @@ class APIResponse:
 
 
 __all__ = [
-    APIError,
-    APIClient,
-    APIResponse
+    'APIError',
+    'APIClient',
+    'APIResponse',
 ]
